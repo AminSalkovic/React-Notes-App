@@ -13,7 +13,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
 }
-.note-new{
+.note.new{
   background-color: #67d7cc;
 }
 textarea{
@@ -30,7 +30,7 @@ textarea:focus{
   border-radius: 15px;
   padding: 5px 10px ;
 }
-save:hover{
+.save:hover{
   background-color: #ededed;
   cursor: pointer;
 }
@@ -44,6 +44,7 @@ save:hover{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  white-space: pre-wrap;
 }
 .note-footer{
   display: flex;
